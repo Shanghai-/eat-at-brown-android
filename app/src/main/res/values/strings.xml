@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">EatAtBrown</string>
+    <string name="app_name">Eat@Brown</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="breakfast">BREAKFAST</string>
+    <string name="lunch">LUNCH</string>
+    <string name="dinner">DINNER</string>
+    <string name="action_next_day">Next Day</string>
 </resources>

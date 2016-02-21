@@ -80,6 +80,11 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        if (id == R.id.action_nextDay) {
+            //TODO: Handle next day change here
+            return true;
+        }
+
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
@@ -150,11 +155,11 @@ public class MainActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "SECTION 1";
+                    return "BREAKFAST";
                 case 1:
-                    return "SECTION 2";
+                    return "LUNCH";
                 case 2:
-                    return "SECTION 3";
+                    return "DINNER";
             }
             return null;
         }
