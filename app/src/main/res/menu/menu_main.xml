@@ -3,12 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.hackteam.brendan.eatatbrown.MainActivity">
 
-    <!-- "Mark Favorite", should appear as action button if possible -->
     <item
         android:id="@+id/action_nextDay"
         android:icon="@drawable/ic_action_next_day"
         android:title="@string/action_next_day"
         app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_hours"
+        android:orderInCategory="25"
+        android:title="@string/action_hours"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="50"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/action_settings"
